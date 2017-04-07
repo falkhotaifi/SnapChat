@@ -17,6 +17,7 @@
 		286F666F1E95E814006B7D75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 286F666E1E95E814006B7D75 /* GoogleService-Info.plist */; };
 		286F66721E95FF0C006B7D75 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F66711E95FF0C006B7D75 /* SnapsViewController.swift */; };
 		286F66871E9612AF006B7D75 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F66861E9612AF006B7D75 /* PictureViewController.swift */; };
+		28DAD4461E9732980017B1A6 /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAD4451E9732970017B1A6 /* SelectUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		286F66701E95FE08006B7D75 /* ShapChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShapChat.entitlements; sourceTree = "<group>"; };
 		286F66711E95FF0C006B7D75 /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 		286F66861E9612AF006B7D75 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		28DAD4451E9732970017B1A6 /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
 		82EB1506ECAC1A6FE0A390EE /* Pods-ShapChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShapChat/Pods-ShapChat.debug.xcconfig"; sourceTree = "<group>"; };
 		EC2DBBB3956E30A3DA8A5705 /* Pods_ShapChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShapChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F071880C8E3583FCF8F9B093 /* Pods-ShapChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShapChat/Pods-ShapChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				286F665B1E95E48B006B7D75 /* SingInViewController.swift */,
 				286F66711E95FF0C006B7D75 /* SnapsViewController.swift */,
 				286F66861E9612AF006B7D75 /* PictureViewController.swift */,
+				28DAD4451E9732970017B1A6 /* SelectUserViewController.swift */,
 				286F665D1E95E48B006B7D75 /* Main.storyboard */,
 				286F66631E95E48B006B7D75 /* Assets.xcassets */,
 				286F66651E95E48B006B7D75 /* LaunchScreen.storyboard */,
@@ -235,6 +238,7 @@
 				286F66721E95FF0C006B7D75 /* SnapsViewController.swift in Sources */,
 				286F66621E95E48B006B7D75 /* ShapChat.xcdatamodeld in Sources */,
 				286F665C1E95E48B006B7D75 /* SingInViewController.swift in Sources */,
+				28DAD4461E9732980017B1A6 /* SelectUserViewController.swift in Sources */,
 				286F665A1E95E48B006B7D75 /* AppDelegate.swift in Sources */,
 				286F66871E9612AF006B7D75 /* PictureViewController.swift in Sources */,
 			);

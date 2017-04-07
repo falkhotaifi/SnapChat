@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseStorage
 
 class PictureViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     @IBOutlet weak var descTextField: UITextField!
@@ -30,6 +32,7 @@ class PictureViewController: UIViewController, UIImagePickerControllerDelegate, 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
         imageView.image = image
+        imageView.backgroundColor = UIColor.clear
         imagePicker.dismiss(animated: true, completion: nil)
     }
     
@@ -40,6 +43,20 @@ class PictureViewController: UIViewController, UIImagePickerControllerDelegate, 
     }
     
     @IBAction func nextButton(_ sender: Any) {
+        nextOutlet.isEnabled = false
+        let imagesFolder = FIRStorage.storage().reference().child("images")
+        let imageDate = UIImageJPEGRepresentation(imageView.image!, 0.1)!
+        imagesFolder.child("\(NSUUID().uuidString).jpg").put(imageDate, metadata: nil, completion: {(metadata, error) in
+            print ("We tried to upload")
+            if error != nil {
+                print ("We had an error: \(error)")
+            }else {
+                self.performSegue(withIdentifier: "SelectUserSegue", sender: nil)
+            }
+        })
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
     }
 

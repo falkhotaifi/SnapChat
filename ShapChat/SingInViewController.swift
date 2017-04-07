@@ -17,11 +17,14 @@ class SingInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let tapGestureRecognizer : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SingInViewController.dismissKeyBoard))
+        self.view.addGestureRecognizer(tapGestureRecognizer)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
 
     @IBAction func TurnUpButton(_ sender: Any) {
@@ -46,6 +49,11 @@ class SingInViewController: UIViewController {
                 self.performSegue(withIdentifier: "singinSegue", sender: nil)
             }
         })
+    }
+    
+    func dismissKeyBoard() {
+        self.EmailTextField.resignFirstResponder()
+        self.PasswordTextField.resignFirstResponder()
     }
 
 }

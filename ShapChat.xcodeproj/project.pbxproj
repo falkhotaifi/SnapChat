@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17306F46DD6AE2601BD84AFF /* Pods_ShapChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2DBBB3956E30A3DA8A5705 /* Pods_ShapChat.framework */; };
 		286F665A1E95E48B006B7D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F66591E95E48B006B7D75 /* AppDelegate.swift */; };
-		286F665C1E95E48B006B7D75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F665B1E95E48B006B7D75 /* ViewController.swift */; };
+		286F665C1E95E48B006B7D75 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F665B1E95E48B006B7D75 /* SingInViewController.swift */; };
 		286F665F1E95E48B006B7D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286F665D1E95E48B006B7D75 /* Main.storyboard */; };
 		286F66621E95E48B006B7D75 /* ShapChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 286F66601E95E48B006B7D75 /* ShapChat.xcdatamodeld */; };
 		286F66641E95E48B006B7D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286F66631E95E48B006B7D75 /* Assets.xcassets */; };
 		286F66671E95E48B006B7D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286F66651E95E48B006B7D75 /* LaunchScreen.storyboard */; };
+		286F666F1E95E814006B7D75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 286F666E1E95E814006B7D75 /* GoogleService-Info.plist */; };
+		286F66721E95FF0C006B7D75 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F66711E95FF0C006B7D75 /* SnapsViewController.swift */; };
+		286F66871E9612AF006B7D75 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F66861E9612AF006B7D75 /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		286F66561E95E48B006B7D75 /* ShapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286F66591E95E48B006B7D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		286F665B1E95E48B006B7D75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		286F665B1E95E48B006B7D75 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
 		286F665E1E95E48B006B7D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		286F66611E95E48B006B7D75 /* ShapChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShapChat.xcdatamodel; sourceTree = "<group>"; };
 		286F66631E95E48B006B7D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286F66661E95E48B006B7D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		286F66681E95E48B006B7D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286F666E1E95E814006B7D75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		286F66701E95FE08006B7D75 /* ShapChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShapChat.entitlements; sourceTree = "<group>"; };
+		286F66711E95FF0C006B7D75 /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		286F66861E9612AF006B7D75 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		82EB1506ECAC1A6FE0A390EE /* Pods-ShapChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShapChat/Pods-ShapChat.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2DBBB3956E30A3DA8A5705 /* Pods_ShapChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShapChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F071880C8E3583FCF8F9B093 /* Pods-ShapChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShapChat/Pods-ShapChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17306F46DD6AE2601BD84AFF /* Pods_ShapChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,8 @@
 			children = (
 				286F66581E95E48B006B7D75 /* ShapChat */,
 				286F66571E95E48B006B7D75 /* Products */,
+				8F5CDB462ADBACEE0B54A7E4 /* Pods */,
+				9868E27C00FF5F3E6176BF42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +70,36 @@
 		286F66581E95E48B006B7D75 /* ShapChat */ = {
 			isa = PBXGroup;
 			children = (
+				286F66701E95FE08006B7D75 /* ShapChat.entitlements */,
 				286F66591E95E48B006B7D75 /* AppDelegate.swift */,
-				286F665B1E95E48B006B7D75 /* ViewController.swift */,
+				286F665B1E95E48B006B7D75 /* SingInViewController.swift */,
+				286F66711E95FF0C006B7D75 /* SnapsViewController.swift */,
+				286F66861E9612AF006B7D75 /* PictureViewController.swift */,
 				286F665D1E95E48B006B7D75 /* Main.storyboard */,
 				286F66631E95E48B006B7D75 /* Assets.xcassets */,
 				286F66651E95E48B006B7D75 /* LaunchScreen.storyboard */,
 				286F66681E95E48B006B7D75 /* Info.plist */,
 				286F66601E95E48B006B7D75 /* ShapChat.xcdatamodeld */,
+				286F666E1E95E814006B7D75 /* GoogleService-Info.plist */,
 			);
 			path = ShapChat;
+			sourceTree = "<group>";
+		};
+		8F5CDB462ADBACEE0B54A7E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82EB1506ECAC1A6FE0A390EE /* Pods-ShapChat.debug.xcconfig */,
+				F071880C8E3583FCF8F9B093 /* Pods-ShapChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9868E27C00FF5F3E6176BF42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2DBBB3956E30A3DA8A5705 /* Pods_ShapChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 286F666B1E95E48B006B7D75 /* Build configuration list for PBXNativeTarget "ShapChat" */;
 			buildPhases = (
+				B4E46F77731AFCD34009CA7E /* [CP] Check Pods Manifest.lock */,
 				286F66521E95E48B006B7D75 /* Sources */,
 				286F66531E95E48B006B7D75 /* Frameworks */,
 				286F66541E95E48B006B7D75 /* Resources */,
+				760281EF8A1A11F29D8660B4 /* [CP] Embed Pods Frameworks */,
+				21635D1FD02D83DF2F4DE20E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +137,13 @@
 				TargetAttributes = {
 					286F66551E95E48B006B7D75 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = WW8CTKBQ93;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -127,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				286F66671E95E48B006B7D75 /* LaunchScreen.storyboard in Resources */,
+				286F666F1E95E814006B7D75 /* GoogleService-Info.plist in Resources */,
 				286F66641E95E48B006B7D75 /* Assets.xcassets in Resources */,
 				286F665F1E95E48B006B7D75 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +179,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21635D1FD02D83DF2F4DE20E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShapChat/Pods-ShapChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		760281EF8A1A11F29D8660B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShapChat/Pods-ShapChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E46F77731AFCD34009CA7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		286F66521E95E48B006B7D75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286F66721E95FF0C006B7D75 /* SnapsViewController.swift in Sources */,
 				286F66621E95E48B006B7D75 /* ShapChat.xcdatamodeld in Sources */,
-				286F665C1E95E48B006B7D75 /* ViewController.swift in Sources */,
+				286F665C1E95E48B006B7D75 /* SingInViewController.swift in Sources */,
 				286F665A1E95E48B006B7D75 /* AppDelegate.swift in Sources */,
+				286F66871E9612AF006B7D75 /* PictureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +359,10 @@
 		};
 		286F666C1E95E48B006B7D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EB1506ECAC1A6FE0A390EE /* Pods-ShapChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WW8CTKBQ93;
 				INFOPLIST_FILE = ShapChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.falkhotaifi.ShapChat;
@@ -276,8 +373,10 @@
 		};
 		286F666D1E95E48B006B7D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F071880C8E3583FCF8F9B093 /* Pods-ShapChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WW8CTKBQ93;
 				INFOPLIST_FILE = ShapChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.falkhotaifi.ShapChat;
@@ -305,6 +404,7 @@
 				286F666D1E95E48B006B7D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
